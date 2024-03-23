@@ -1,0 +1,48 @@
+body{
+    background: url('https://wallpapers.com/images/featured/avengers-vm16xv4a69smdauy.jpg'),
+    linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+.card-container .card h2, p{
+    text-align: center;
+}
+.card{
+    width: 250px;
+    height: 320px;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+.photo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 80px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.info p{
+    padding: 0px 10px;
+}
+.card-btn{
+    padding: 10px 20px;
+    background-color: green;
+    border: none;
+    margin-left: 80px;
+    color: #fff;
+    font: 16px;
+    font-weight: 700;
+}
+.home-container{
+    display: flex;
+
+}
+.card-container{
+    width: 600px;
+}
