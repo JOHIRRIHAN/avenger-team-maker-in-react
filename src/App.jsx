@@ -1,6 +1,6 @@
 
 import './App.css'
-// import Card from './Components/Card/Card'
+import '@sweetalert2/themes/dark/dark.scss';
 import Home from './Components/Home/Home'
 
 function App() {
